@@ -19,14 +19,29 @@ body {
 
 .home {
   margin: 1.5vw 3vw 0 1vw;
+  text-shadow: 1px 3px 2px lightgray;
+}
+
+.home:hover {
+  text-shadow: none;
 }
 
 .fluke {
   margin: 1.5vw 12vw 0 0;
+  text-shadow: 1px 3px 2px lightgray;
+}
+
+.fluke:hover {
+  text-shadow: none;
 }
 
 .vamp2 {
   margin: 1.5vw 0 0 48vw;
+  text-shadow: 1px 3px 2px lightgray;
+}
+
+.vamp2:hover {
+  text-shadow: none;
 }
 
 h2 {
@@ -34,6 +49,7 @@ h2 {
   text-align: center;
   margin: -2.5vw 0 0 0;
   font-size: 3vw;
+  text-shadow: 2px 4px 3px lightblue;
 }
 
 .hero {
@@ -48,8 +64,115 @@ h2 {
   color: blue;
   margin: 5vw 0 5vw 0;
   font-size: 3vw;
+  text-shadow: 2px 4px 3px lightblue;
 }
 
 .interest {
   display: flex;
+  /* flex-wrap: wrap; */
+  column-count: 2;
+}
+
+.kids {
+  margin: 0 6vw 6vw 0;
+}
+
+.grab {
+  text-align: center;
+}
+
+.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 6vw;
+}
+
+.find {
+  text-align: center;
+  background-color: lightgray;
+  padding: 3vw 0 0 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.fb {
+  margin: 3vw 3vw 3vw 3vw;
+}
+
+.gram {
+  margin: 3vw 3vw 3vw 3vw;
+}
+
+.mailList {
+  margin: 0 0 10vw 0;
+}
+
+.mailing {
+  text-align: center;
+  margin: 3vw 0 3vw 0;
+}
+
+#email {
+  background-color: lightgray;
+  border: none;
+  border-bottom: 2px solid darkgray;
+  width: 20vw;
+  height: 3vw;
+}
+
+.signUp {
+  color: white;
+  background-color: blue;
+  height: 3vw;
+  width: 10vw;
+  border: none;
+}
+
+.contact {
+  background-color: lightgray;
+  padding: 0 0 5vw 0;
+}
+
+.contactP {
+  text-align: center;
+  padding: 5vw 20vw 0 20vw;
+}
+
+h4 {
+  text-align: center;
+}
+
+.tel {
+  display: flex;
+  justify-content: center;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.daysOpen {
+  text-align: center;
+}
+
+.daysClosed {
+  text-align: center;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.touch {
+  color: white;
+  background-color: blue;
+  height: 3vw;
+  width: 15vw;
+  border: none;
 }
